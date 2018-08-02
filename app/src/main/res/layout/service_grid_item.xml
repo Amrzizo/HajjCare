@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp">
+
+
+
+    <ImageView
+        android:id="@+id/service_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/icon_bg_dark" />
+
+    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rounded_service_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/service_icon"
+        app:layout_constraintEnd_toEndOf="@+id/service_icon"
+        app:layout_constraintStart_toStartOf="@+id/service_icon"
+        app:layout_constraintTop_toTopOf="@+id/service_icon"
+        app:riv_border_color="@color/transparent"
+        app:riv_mutate_background="true"
+        app:riv_oval="true"
+        android:visibility="gone"
+        app:srcCompat="@mipmap/insuarance" />
+
+    <ProgressBar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progress_bar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:indeterminateTint="@color/progress_loading_color"
+        app:layout_constraintBottom_toBottomOf="@+id/service_icon"
+        app:layout_constraintEnd_toEndOf="@+id/service_icon"
+        app:layout_constraintStart_toStartOf="@+id/service_icon"
+        app:layout_constraintTop_toTopOf="@+id/service_icon" />
+
+    <TextView
+        android:id="@+id/service_name"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@mipmap/offer_bg"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="tefsfsfsview"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/service_icon" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical">
+
+
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header1"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@mipmap/header1" />
+
+        <ImageView
+            android:id="@+id/header_bg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="47dp"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:src="@mipmap/signin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:src="@mipmap/sign_in"
+            app:layout_constraintBottom_toBottomOf="@+id/header_bg"
+            app:layout_constraintEnd_toEndOf="@id/header_bg"
+            app:layout_constraintStart_toStartOf="@id/header_bg"
+            app:layout_constraintTop_toTopOf="@+id/header_bg" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/create_account"
+            android:gravity="center_vertical|center_horizontal"
+            android:includeFontPadding="false"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="@string/str_register_button_txt"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/def_medium_text_size"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mobile_edit_text_linear" />
+
+
+        <LinearLayout
+            android:id="@+id/email_edit_text_linear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/login_edit_text_padding"
+            android:layout_marginStart="@dimen/login_edit_text_padding"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/rounded_corner_bg"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_bg">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="13dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/username_icon" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/email_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="start|center_vertical"
+                android:hint="@string/str_signup_user_name_txt"
+                android:inputType="textEmailAddress" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/password_edit_text_linear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/login_edit_text_padding"
+            android:layout_marginStart="@dimen/login_edit_text_padding"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_corner_bg"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email_edit_text_linear">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="13dp"
+                android:src="@mipmap/password_icon" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/password_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="start|center_vertical"
+                android:hint="@string/str_signup_password_txt"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mail_edit_text_linear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/login_edit_text_padding"
+            android:layout_marginStart="@dimen/login_edit_text_padding"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_corner_bg"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password_edit_text_linear">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="13dp"
+                android:src="@mipmap/mail_icon" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/mail_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@null"
+                android:ems="20"
+                android:gravity="start|center_vertical"
+                android:hint="@string/str_signup_mail_txt"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mobile_edit_text_linear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="@dimen/login_edit_text_padding"
+            android:layout_marginStart="@dimen/login_edit_text_padding"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_corner_bg"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mail_edit_text_linear">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="13dp"
+                android:src="@mipmap/mobile_icon" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/mobile_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@null"
+                android:ems="20"
+                android:gravity="start|center_vertical"
+                android:hint="@string/str_signup_mobile_txt"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

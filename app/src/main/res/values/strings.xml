@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Hijj Care</string>
+    <string name="STR_RETROFIT_NO_RESPONSE_TXT">No response from server</string>
+    <string name="alert_loading_contents">Loading ...</string>
+    <string name="str_login_button_txt">Login</string>
+    <string name="str_login_button_enter_txt">Enter</string>
+    <string name="str_register_button_txt">Create Account</string>
+    <string name="str_login_email_hint_txt">UserName or E-mail</string>
+    <string name="str_login_password_hint_txt">Password</string>
+    <string name="str_login_id_hint_txt">ID (passport number)</string>
+    <string name="str_home_welcome_txt">Welcome</string>
+    <string name="str_login_english_txt">English</string>
+    <string name="str_login_arabic_txt">Arabic</string>
+    <string name="create_account">Don\'t have an account ? +Sign Up+</string>
+    <string name="login_user_error">Please Enter Username or Email</string>
+    <string name="login_password_error">Please Enter Password </string>
+    <string name="str_signup_user_name_txt">UserName</string>
+    <string name="str_signup_password_txt">Password</string>
+    <string name="str_signup_mail_txt">E-mail</string>
+    <string name="str_signup_mobile_txt">Mobile</string>
+    <string name="register_error_message_txt">Please Enter valid value </string>
+    <string name="register_success_message_txt">You have registered successfully </string>
+    <string name="update_success_message_txt">Your Profile Updated successfully </string>
+    <string name="Insurance_success_message_txt">Your Request have been submitted successfully </string>
+    <string name="setting_saved_success_message_txt">Settings Saved </string>
+
+    <string name="str_error"> Error: </string>
+    <string name="str_error_from">From Server</string>
+    <string name="str_connection_error">can\'t connect to server</string>
+    <string name="str_side_menu_about_us_txt">About Us</string>
+    <string name="str_side_menu_know_your_doctor_txt">Know your Doctor</string>
+    <string name="str_side_menu_our_services_txt">Our Services</string>
+    <string name="str_side_menu_befor_anf_after_txt">Befor &amp; After</string>
+    <string name="str_side_menu_notifications_txt">Notifications</string>
+    <string name="str_side_menu_booking_txt">Booking</string>
+    <string name="str_side_menu_logout_txt">Logout</string>
+    <string name="str_side_menu_setting_txt">Settings</string>
+    <string name="str_side_menu_events_txt">Events</string>
+    <string name="str_messages_txt">Messages</string>
+    <string name="str_no_messages_txt">There is no recent messages</string>
+    <string name="str_cash">Cash </string>
+    <string name="str_login_error">Please Enter valid ID (Passport Number) </string>
+    <string name="str_insured">Insured </string>
+    <string name="str_home_txt">Home</string>
+    <string name="str_about_txt">About</string>
+    <string name="str_insurance_txt">Insurance</string>
+    <string name="str_services_txt">Our Services</string>
+    <string name="str_home_insurance_txt">Insurance</string>
+    <string name="str_home_book_now_txt">Book Now</string>
+    <string name="str_home_serve_me_txt">Help Me</string>
+    <string name="str_home_serve_other_txt">Help Other</string>
+    <string name="str_home_our_offers_txt">Our Offers</string>
+    <string name="str_home_our_location_txt">Our Location</string>
+    <string name="str_home_nearest_ambulance_txt">Near Ambulance</string>
+    <string name="str_home_messages_txt">Messages</string>
+    <string name="btn_ok_txt">Ok</string>
+    <string name="btn_Cancel_txt">Cancel</string>
+    <string name="str_please_waite">Please waite we are getting data</string>
+    <string name="str_last_image">It is the last Image</string>
+    <string name="str_last_offer">It is the last Offer</string>
+    <string name="str_telephone">TEL: </string>
+    <string name="str_mobile">Mobile: </string>
+    <string name="str_last_event">It is the last Event</string>
+    <string name="str_who_we_are">Who We are ?</string>
+    <string name="str_message_subject_txt">Message Subject</string>
+    <string name="str_branch_txt">Branch</string>
+    <string name="str_event_txt">Event: </string>
+    <string name="str_date_txt">Date: </string>
+    <string name="str_how_did_you_know_txt">How did you know about us?</string>
+    <string name="str_message_txt">Message</string>
+    <string name="str_message_error_txt">Message not sent</string>
+    <string name="str_payment_method_txt">Payment Method</string>
+    <string name="str_speciality_txt">Speciality</string>
+    <string name="str_other_txt">Other</string>
+    <string name="str_details_txt">Details</string>
+    <string name="str_book_online_txt">Book Online</string>
+    <string name="str_send_message_button_txt">Send Message</string>
+    <string name="str_facebook">FaceBook </string>
+    <string name="str_twitter">Twitter </string>
+    <string name="str_snap_chat">snapChat </string>
+    <string name="str_snap_google">Google </string>
+    <string name="str_snap_youtube">YouTube </string>
+    <string name="str_instagram">Instagram </string>
+    <string name="str_book_now_screen_txt">We welcome your questions and questionnaires from 9:00 am till 9:00 pm through customer service number 920006776, or you can fill the form and of our agents will contact you within 24 hours</string>
+    <string name="STR_ABOUT_US"><![CDATA[<p align="center">
+    <p> <h3> <font color="#3E8697">  Stars Smile Dental Centers for Cosmetic Dentistry </font> </h3><br/>
+<h6>Get the best dental care and reasonable prices with Smile Stars Dental centers where we pay great attention to the level of dental services we offer. As Smile Stars Centers started in 2003, we have managed to gain the trust of our patients using the latest dental technologies.
+Smile Stars Dental Centers always seeks to offer all dental services, including teeth whitening, teeth cleansing, orthodontics, dental implants and more. Our clinic approaches the expansion of its services offering up to 7 specialized data you can easily reach wherever you are. Hence, we tend to target the vital cities of Saudi Arabia such as El Hamra district (Palestine Road), Prince Sultan (El Na’eem), El Rehab district (Al Arba’een), El Hamdanya district, El Sanabel district, El Morgan district, and Prince Fawaz district.</p>
+</h6>
+<p> <h3> <font color="#3E8697">Dentists and Dental Services </font> </h3> <br />
+ <h6>We make sure to enrich our team with professional dentists who are certified from famous universities to help our patients gain the needed care. Our dental clinic coordinates with more than 100 specialized dentists and hygienists who exert a lot of effort to grant you the perfect dental care. Now you can easily check the professional biography of your dentist to ensure the quality of your treatment. Thus, we ensure you will definitely get the perfect Hollywood smile you have always wished for!<br />
+    Also, you can get excellent dental care for your child with skillful dentists who are highly experienced in Pediatric Dentistry. We make sure to offer efficient services seeking our patients’ satisfaction and as a result we have gained the valuable trust of more than 100 thousand patients who have been treated at Smile Stars Dental clinic. Dental care, hygienic tools, and qualified dentists are our core criteria that we follow to maintain the ultimate level of dental treatment to our patients.</h6> </p>]]></string>
+
+
+    <string name="str_event_more_details_txt">More Details</string>
+
+    <string name="logout_message">Are you sure you want to Logout?</string>
+    <string name="setting_message">Do you want to change language?</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_our_locations">Our Locations</string>
+    <string name="str_branch">Branch: </string>
+    <string name="str_services">Services: </string>
+    <string name="str_about_dentist">About the dentist: </string>
+    <string name="str_ask_your_doctor">Ask your doctor</string>
+    <string name="str_remember_me">Remember me</string>
+    <string name="str_edit_profile">Edit Profile</string>
+    <string name="str_change_language">Change Language</string>
+    <string name="str_save">Save</string>
+    <string name="str_arabic">العربية</string>
+    <string name="str_english">English</string>
+    <string name="str_permission_necessary">Permission necessary</string>
+    <string name="str_camera">Camera permission is required</string>
+    <string name="str_phone_state">Phone State permission is required</string>
+    <string name="str_external_storage">External Storage permission is required</string>
+    <string name="str_insurance_info_txt">We make sure to offer efficient services seeking our patients’ satisfaction and as a result we have gained the valuable trust of more than 100 thousand patients who have been treated at Smile Stars Dental clinic. Dental care, hygienic tools, and qualified dentists are our core criteria that we follow to maintain the ultimate level of dental treatment to our patients</string>
+
+
+
+
+
+</resources>

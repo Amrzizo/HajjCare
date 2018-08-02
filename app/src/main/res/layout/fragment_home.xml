@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/header2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="54dp"
+        android:gravity="center"
+        android:text="@string/str_home_txt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="55dp"
+        app:layout_constraintEnd_toStartOf="@+id/before_image_view_linear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@mipmap/prev" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/before_image_view_linear"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/next_arrow"
+        app:layout_constraintStart_toEndOf="@+id/back_arrow"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:background="@mipmap/offer_bg" >
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user_photo"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:paddingBottom="1dp"
+            android:paddingStart="1dp"
+            android:paddingEnd="2dp"
+            android:paddingTop="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            app:riv_corner_radius="24.5dip"
+            app:riv_border_width="3dip"
+            app:riv_border_color="@color/transparent"
+            app:riv_mutate_background="true"
+            app:riv_oval="false"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" />
+
+        <ProgressBar
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/progress_bar"
+            android:indeterminateTint="@color/progress_loading_color"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="2dp"
+            android:layout_height="40dp"
+            android:layout_width="40dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/next_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/before_image_view_linear"
+        app:layout_constraintTop_toTopOf="@+id/back_arrow"
+        app:srcCompat="@mipmap/next" />
+
+    <ImageView
+        android:id="@+id/insurance"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/booking"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/before_image_view_linear"
+        app:srcCompat="@mipmap/offer_bg" />
+
+    <ImageView
+        android:id="@+id/booking"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/insurance"
+        app:layout_constraintTop_toTopOf="@+id/insurance"
+        app:srcCompat="@mipmap/offer_bg" />
+
+    <ImageView
+        android:id="@+id/offers"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/our_locations"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insurance"
+        app:srcCompat="@mipmap/offer_bg" />
+
+    <ImageView
+        android:id="@+id/our_locations"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/offers"
+        app:layout_constraintTop_toTopOf="@+id/offers"
+        app:srcCompat="@mipmap/offer_bg" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/insurance"
+        app:layout_constraintStart_toStartOf="@+id/insurance"
+        app:layout_constraintTop_toBottomOf="@+id/before_image_view_linear"
+        app:srcCompat="@mipmap/icon_bg_dark" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/booking"
+        app:layout_constraintStart_toStartOf="@+id/booking"
+        app:layout_constraintTop_toBottomOf="@+id/before_image_view_linear"
+        app:srcCompat="@mipmap/icon_bg_dark" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/offers"
+        app:layout_constraintStart_toStartOf="@+id/offers"
+        app:layout_constraintTop_toBottomOf="@+id/insurance"
+        app:srcCompat="@mipmap/icon_bg_dark" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/our_locations"
+        app:layout_constraintStart_toStartOf="@+id/our_locations"
+        app:layout_constraintTop_toBottomOf="@+id/booking"
+        app:srcCompat="@mipmap/icon_bg_dark" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="33dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:padding="5dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:srcCompat="@mipmap/insuarance_bg" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="33dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:padding="5dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:srcCompat="@mipmap/insuarance_bg" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="38dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:srcCompat="@mipmap/message_icon" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="38dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:srcCompat="@mipmap/location_menu" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/home_txt_color"
+        android:text="@string/str_home_serve_other_txt"
+        app:layout_constraintEnd_toEndOf="@+id/insurance"
+        app:layout_constraintStart_toStartOf="@+id/insurance"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/home_txt_color"
+        android:text="@string/str_home_serve_me_txt"
+        app:layout_constraintEnd_toEndOf="@+id/booking"
+        app:layout_constraintStart_toStartOf="@+id/booking"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/home_txt_color"
+        android:text="@string/str_home_messages_txt"
+        app:layout_constraintEnd_toEndOf="@+id/offers"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/offers"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/home_txt_color"
+        android:text="@string/str_home_nearest_ambulance_txt"
+        app:layout_constraintEnd_toEndOf="@+id/our_locations"
+        app:layout_constraintStart_toStartOf="@+id/our_locations"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+</android.support.constraint.ConstraintLayout>

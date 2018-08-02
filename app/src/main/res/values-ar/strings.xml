@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="STR_RETROFIT_NO_RESPONSE_TXT">لا يوجد رد من الخادم</string>
+    <string name="alert_loading_contents">جاري التحميل ...</string>
+    <string name="str_login_button_txt">دخول</string>
+    <string name="str_login_button_enter_txt">دخول</string>
+    <string name="str_register_button_txt">أنشىءحساب</string>
+    <string name="str_login_email_hint_txt">أسم المستخدم او الإيميل</string>
+    <string name="str_login_password_hint_txt">كلمة السر</string>
+    <string name="str_login_id_hint_txt">رقم الباسبور</string>
+    <string name="str_home_welcome_txt">مرحباً</string>
+    <string name="str_home_serve_me_txt">ساعدنى</string>
+    <string name="str_home_nearest_ambulance_txt">أقرب اسعاف</string>
+    <string name="str_home_messages_txt">الرسائل</string>
+    <string name="str_home_serve_other_txt">مساعدة الاخرين</string>
+    <string name="str_login_english_txt">إنجليزي</string>
+    <string name="str_login_arabic_txt">عربى</string>
+    <string name="create_account">ليس لديك حساب ؟ +أنشىء حساب+ </string>
+    <string name="login_user_error">Please Enter Username or Email</string>
+    <string name="login_password_error">Please Enter Password </string>
+    <string name="str_signup_user_name_txt">اسم المستحدم</string>
+    <string name="str_signup_password_txt">كلمة المرور</string>
+    <string name="str_signup_mail_txt">البريد الألكترونى</string>
+    <string name="str_signup_mobile_txt">رقم الهاتف</string>
+    <string name="str_message_error_txt">لم يتم ارسال الرسالة</string>
+    <string name="register_error_message_txt">من فضلك ادخل الحقل المطلوب </string>
+    <string name="register_success_message_txt">لقد تم التسجيل بنجاح </string>
+    <string name="update_success_message_txt">لقد تم تحديث الحساب بنجاح </string>
+    <string name="setting_saved_success_message_txt">تم حفظ الاعدادات </string>
+    <string name="Insurance_success_message_txt">تم تقديم الطلب بنجاح </string>
+    <string name="str_side_menu_about_us_txt">عنا</string>
+    <string name="str_side_menu_know_your_doctor_txt">إعرف دكتورك</string>
+    <string name="str_side_menu_our_services_txt">خدماتنا</string>
+    <string name="str_side_menu_befor_anf_after_txt">قبل &amp; بعد</string>
+    <string name="str_side_menu_notifications_txt">الإشعارات</string>
+    <string name="str_side_menu_logout_txt">خروج</string>
+    <string name="str_side_menu_setting_txt">الاعدادات</string>
+    <string name="str_side_menu_booking_txt">الحجز</string>
+    <string name="str_side_menu_events_txt">الاحداث</string>
+    <string name="str_messages_txt">الرسائل</string>
+    <string name="str_no_messages_txt">لا يوجد رسائل</string>
+    <string name="str_home_txt">الرئيسية</string>
+    <string name="str_error"> خطأ : </string>
+    <string name="str_connection_error">لا يمكن الوصول للخادم</string>
+    <string name="str_cash">نقدا </string>
+    <string name="str_insured">تأمين </string>
+    <string name="str_error_from">من الخادم</string>
+    <string name="str_about_txt">عنا</string>
+    <string name="str_insurance_txt">التأمين</string>
+    <string name="str_services_txt">خدماتنا</string>
+    <string name="str_home_insurance_txt">التأمين</string>
+    <string name="str_home_book_now_txt">أحجز الأن</string>
+    <string name="str_home_our_offers_txt">عروضنا</string>
+    <string name="str_home_our_location_txt">موقعنا</string>
+    <string name="btn_ok_txt">موافق</string>
+    <string name="btn_Cancel_txt">إلغاء</string>
+    <string name="str_please_waite">من فضلك انتظر جارى الحصول على البيانات </string>
+    <string name="str_last_image">هذه اخر صورة</string>
+    <string name="str_last_offer">هذا اخر عرض</string>
+    <string name="str_last_event">هذا اخر حدث</string>
+    <string name="str_who_we_are">من نحن</string>
+    <string name="str_message_subject_txt">عنوان الرسالة</string>
+    <string name="str_branch_txt">الفرع</string>
+    <string name="str_event_txt">الحدث: </string>
+    <string name="str_date_txt">التاريخ: </string>
+    <string name="str_book_now_screen_txt">نحن نرحب باستفساراتكم من 9 صباحا وحتى 9 مساءا على رقم خدمة العملاء 920006776 ، او املأ النموذج التالي ، وسيقوم احد ممثلينا بالرد على استفساراتكم خلال 24 ساعة.</string>
+    <string name="str_message_txt">الرسالة</string>
+    <string name="str_other_txt">أخري</string>
+    <string name="str_payment_method_txt">طريقة الدفع</string>
+    <string name="str_speciality_txt">التخصص</string>
+    <string name="str_how_did_you_know_txt">كيف عرفت عنا ؟</string>
+    <string name="str_book_online_txt">أحجز اون لاين</string>
+    <string name="str_details_txt">تفاصيل</string>
+    <string name="str_facebook">فيس بوك </string>
+    <string name="str_twitter">تويتر </string>
+    <string name="str_snap_chat">سناب شات </string>
+    <string name="str_snap_google">جوجل </string>
+    <string name="str_snap_youtube">بوتيوب </string>
+    <string name="str_instagram">انستجرام </string>
+    <string name="str_send_message_button_txt">إرسال</string>
+    <string name="STR_ABOUT_US"><![CDATA[<p align="center">
+    <p> <h3> <font color="#3E8697">  مراكز ابتسامة النجوم لطب وتجميل الأسنان </font> </h3><br/>
+<h6>عتبر مراكز ابتسامة النجوم هى المكان الأفضل للعناية بالأسنان في جدة فهو مركز متخصص في تقديم أفضل الخدمات الطبية الخاصة بطب و تجميل الأسنان. يحظى مركز ابتسامة النجوم بخبرة كبيرة حيث تم إنشاء المركز عام 2003. ويكتسب شهرته من حرص القائمين على المركز بتوفير أدق التقنيات المتطورة في طب الأسنان.
+
+ويسعى المركز فى تقديم أفضل خدمات طب الاسنان مثل تبيض وتنظيف الاسنان و تقويم الاسنان و زراعة الاسنان وغيرها من الخدمات المتعددة، لذلك توسعت فروع المركز لتصل إلى 7 فروع متخصصة حتى تكون دوماً على مسافة قريبة من الجميع. وتتوفر فروعنا في أشهر أحياء جدة مثل حي الحمراء (شارع فلسطين)، و حي الأمير سلطان (النعيم)، و حي الرحاب (الأربعين)، و حي الحمدانية، و حي السنابل، و حي المرجان، و حي الأمير فواز.</h6>
+<p> <h3> <font color="#3E8697">Dentists and Dental Services </font> </h3> <br />
+ <h6>تحرص مراكز ابتسامة النجوم ‏على ضم مجموعة مختارة من أكفأ الأطباء المتخصصين في‏ طب ‏الاسنان‏ الحاصلين على شهادات عليا من أشهر الجامعات العربية والعالمية لمعالجة المرضى بأحدث ما توصل له طب الاسنان، ويصل عددهم‏ إلى 100 طبيب أخصائي‏ ‏في‏ جراحة وزراعة الاسنان ممن يسعون لتقديم‏ الرعاية‏ الطبية‏ اللازمة‏ لك‏. يمكنك الآن اختيار طبيبك والإطلاع على مسيرته المهانية للتأكد من التعامل مع أكفأ الأطباء فى العالم ، لذا فنحن نضمن لك‏ ‏الحصول‏ على خدمات رائعة واسنان لامعة وابتسامة مثالية‏ لا تختلف عن ابتسامة هوليود‏.‏<br />
+    كما ‏نضمن الرعاية التامة لطفلك حيث يوجد مجوعة من الأطباء ‏المتخصصين فى طب اسنان الأطفال لتقديم العناية ‏اللازمة‏ لهم باستخدام احدث التقنيات وأجود المستحضرات لتقديم خدمة صحية فائقة.‏ ‏لذا استطعنا أن‏ نحظى‏ على ‏ثقة أكثر من 100 ألف مريض ممن تم معالجتهم داخل مركز ابتسامة النجوم. حيث يعتمد مركزنا على تقديم معايير أساسية للمرضى من أهمها، كفاءة الأطباء وتطور الأجهزة ‏والنظافة الدائمة‏ لكسب ثقة المرضى وتقديم خدمة ‏مميزة تليق بأهالي‏ المملكة.</h6> </p>]]></string>
+
+
+
+    <string name="str_event_more_details_txt">المزيد من التفاصيل</string>
+    <string name="logout_message">هل أنت متأكد من تسجيل الخروج؟</string>
+    <string name="setting_message">هل تريد تغيير اللغة</string>
+    <string name="str_telephone">تليفون: </string>
+    <string name="str_mobile">جوال: </string>
+    <string name="logout">خروج</string>
+    <string name="str_branch">الفرع: </string>
+    <string name="title_activity_our_locations">مواقعنا</string>
+    <string name="str_services">الخدمات: </string>
+    <string name="str_about_dentist">عن الطبيب: </string>
+    <string name="str_remember_me">تذكرنى</string>
+    <string name="str_ask_your_doctor">إسأل طبيبك</string>
+    <string name="str_edit_profile">تعديل الحساب</string>
+    <string name="str_change_language">تغيير اللغة</string>
+    <string name="str_arabic">العربية</string>
+    <string name="str_english">English</string>
+    <string name="str_permission_necessary">أذن مطلوب</string>
+    <string name="str_save">حفظ</string>
+    <string name="str_camera">أذن الكاميرا مطلوب</string>
+    <string name="str_phone_state">أذن حالة الهاتف مطلوب</string>
+    <string name="str_external_storage">أذن الذاكرة الخارجية مطلوب</string>
+    <string name="str_insurance_info_txt">نحن نتأكد من تقديم خدمات فعالة تسعى إلى تحقيق رضا مرضانا ، ونتيجة لذلك اكتسبنا ثقة قيمة أكثر من 100 ألف مريض تم علاجهم في عيادة سمايل ستارز لطب الأسنان. إن العناية بالأسنان والأدوات الصحية وأطباء الأسنان المؤهلين هي المعايير الأساسية التي نتبعها للحفاظ على المستوى الأمثل من علاج الأسنان لمرضانا.</string>
+</resources>
